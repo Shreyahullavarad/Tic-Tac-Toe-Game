@@ -4,7 +4,7 @@ import math
 import winsound 
 
 root = tk.Tk()
-root.title("Ultimate Tic-Tac-Toe")
+root.title("Tic-Tac-Toe Game")
 root.geometry("420x600")
 root.configure(bg="#141426")
 
@@ -174,7 +174,7 @@ def start_ai():
 start_frame = tk.Frame(root, bg="#141426")
 start_frame.pack()
 
-tk.Label(start_frame, text="ULTIMATE TIC-TAC-TOE",
+tk.Label(start_frame, text="TIC-TAC-TOE",
          font=("Arial", 22, "bold"),
          fg="white", bg="#141426").pack(pady=40)
 
